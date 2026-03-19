@@ -1,18 +1,18 @@
-#HangMan
+# HangMan
 
 A console-based word-guessing game built in C#, featuring three difficulty modes, input validation, and coloured terminal output for an engaging player experience.
 
 ---
 
-##About
+## About
 
 HangMan is a classic word-guessing game where the player must guess a hidden word one letter at a time before running out of tries. The game features a custom ASCII art title screen, colour-coded feedback, and a play-again loop so you can keep going without restarting the application.
 
 ---
 
-##Features
+## Features
 
-- **Three difficulty modes:**
+- Three difficulty modes:
   - Easy — 4 to 5 letter words (6 tries)
   - Medium — 6 to 7 letter words (6 tries)
   - Hard — 8 to 9 letter words (6 tries)
@@ -23,7 +23,7 @@ HangMan is a classic word-guessing game where the player must guess a hidden wor
 
 ---
 
-##Built With
+## Built With
 
 - **Language:** C#
 - **Framework:** .NET (Console Application)
@@ -31,12 +31,12 @@ HangMan is a classic word-guessing game where the player must guess a hidden wor
 
 ---
 
-##How to Run
+## How to Run
 
 ### Prerequisites
 - [.NET SDK](https://dotnet.microsoft.com/download) installed on your machine
 
-###Steps
+### Steps
 
 ```bash
 # Clone the repository
@@ -49,7 +49,7 @@ cd HangMan
 dotnet run
 ```
 
-Once running, select a difficulty (1, 2, or 3) and start guessing letters!
+Once running, select a difficulty (1, 2, or 3) and start guessing letters.
 
 ---
 
@@ -60,7 +60,7 @@ Once running, select a difficulty (1, 2, or 3) and start guessing letters!
 3. Type a single letter and press Enter to guess
 4. Correct guesses reveal the letter in the word
 5. Incorrect guesses reduce your remaining tries
-6. Win by guessing the full word before your tries run out!
+6. Win by guessing the full word before your tries run out
 
 ---
 
